@@ -1,4 +1,4 @@
 1 - Página inicial das fichas - ok
 2 - Página inicial dos clientes - ok
-3 - Página inicial das configurações -
+3 - Página inicial das configurações - ok
 4 - Página inicial da assinatura -
