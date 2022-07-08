@@ -1,0 +1,3 @@
+1 - Página inicial das fichas - 
+2 - Página inicial dos clientes -
+3 - Página inicial das configurações -

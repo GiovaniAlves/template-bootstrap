@@ -1,0 +1,123 @@
+body {
+   background: #eee;
+}
+
+a {
+   text-decoration: none;
+}
+
+#side_nav {
+   background: #000;
+   position: fixed;
+   height: 100vh;
+   min-width: 250px;
+   max-width: 250px;
+   transition: all 0.3s;
+   z-index: 2;
+}
+
+.content {
+   padding-left: 250px;
+   min-height: 100vh;
+   width: 100%;
+}
+
+hr.h-color {
+   color: #eee;
+}
+
+.sidebar li.active {
+   background: #eee;
+   border-radius: 8px;
+}
+.sidebar li.active a, .sidebar li.active a:hover {
+   color: #000;
+}
+.sidebar li a {
+   color: #fff;
+}
+
+#calendar {
+   max-width: 800px;
+   margin: 0 auto; 
+}
+
+#calendar .fc-view-container {
+   max-height: 700px;
+   padding: 30px;
+   background-color: #fff;
+   -webkit-box-shadow: 0 15px 30px 0 rgba(0, 0, 0, 0.2);
+   box-shadow: 0 15px 30px 0 rgba(0, 0, 0, 0.2); 
+}
+
+.card-custom {
+   border-radius: 5px;
+   box-shadow: 7px 7px 13px 0px rgba(50, 50, 50, 0.22);
+   padding: 2px;
+   margin: 15px;
+   width: 450px;
+   transition: all 0.3s ease-out;
+}
+
+.card-custom:hover {
+   transform: translateY(-5px);
+   cursor: pointer;
+ }
+  
+.card-custom p {
+   color: #000;
+   font-size: 15px;
+}
+
+ .dark {
+   border-left: 4px solid #000;
+ }
+
+.fab-container{
+   position:fixed;
+   bottom:50px;
+   right:50px;
+   cursor:pointer;
+}
+
+.iconbutton{
+   width:50px;
+   height:50px;
+   border-radius: 100%;
+   background: #FF4F79;
+   box-shadow: 10px 10px 5px #aaaaaa;
+}
+
+.button{
+   width:60px;
+   height:60px;
+   background:#000;
+}
+
+.iconbutton i{
+   display:flex;
+   align-items:center;
+   justify-content:center;
+   height: 100%;
+   color:white;
+}
+
+@media(max-width: 767px) {
+   .content {
+      padding-left: 0px;
+   }
+
+   #side_nav {
+      margin-left: -250px;
+      position: fixed;
+      min-height: 100vh;
+   }
+
+   #side_nav.active {
+      margin-left: 0;
+   }
+
+   .card-custom {
+      width: 280px;
+   }
+}
