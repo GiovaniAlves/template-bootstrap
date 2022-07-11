@@ -6,6 +6,10 @@ a {
    text-decoration: none;
 }
 
+select {
+   color: #0d6efd;
+}
+
 #side_nav {
    background: #000;
    position: fixed;

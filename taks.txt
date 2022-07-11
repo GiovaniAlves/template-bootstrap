@@ -1,4 +1,4 @@
 1 - Criar histórico de pagamento - ok
-2 - Criar página de agendamento - 
+2 - Criar página de agendamento - ok
 3 - Criar página de gerenciamento da agenda - 
 4 - Página de cadastro/login do cliente - 
