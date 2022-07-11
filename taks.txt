@@ -1,4 +1,4 @@
-1 - Página inicial das fichas - ok
-2 - Página inicial dos clientes - ok
-3 - Página inicial das configurações - ok
-4 - Página inicial da assinatura -
+1 - Criar histórico de pagamento - 
+2 - Criar página de agendamento - 
+3 - Criar página de gerenciamento da agenda - 
+4 - Página de cadastro/login do cliente - 
